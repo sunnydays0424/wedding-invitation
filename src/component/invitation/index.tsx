@@ -44,6 +44,9 @@ export const Invitation = () => {
         <div className="content">감사하겠습니다.</div>
         <div className="break" />
                 <div className="break" />
+        <div className="break" />
+
+                <div className="break" />
 
 
         {/* 혼주 및 신랑 정보 */}
