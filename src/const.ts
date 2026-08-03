@@ -32,7 +32,7 @@ export const HOLIDAYS = [15]
 /**
  * 예식 장소 명칭
  */
-export const LOCATION = "서울대학교 연구공원 웨딩홀"
+export const LOCATION = "상록아트홀 5층 아트홀"
 
 /**
  * 예식 장소 상세 주소
@@ -68,8 +68,8 @@ export const NMAP_PLACE_ID = 13321741
 export const KMAP_PLACE_ID = 8634826
 
 // 신부 정보 설정
-export const BRIDE_FULLNAME = "정지원"
-export const BRIDE_FIRSTNAME = "지원"
+export const BRIDE_FULLNAME = "김선희"
+export const BRIDE_FIRSTNAME = "선희"
 export const BRIDE_TITLE = "장녀"
 export const BRIDE_FATHER = "정상원"
 export const BRIDE_MOTHER = "박윤정"
