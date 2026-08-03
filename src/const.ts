@@ -14,7 +14,7 @@ export { dayjs }
  * 예식 일시 설정
  * Asia/Seoul 타임존 기준으로 설정합니다.
  */
-export const WEDDING_DATE = dayjs.tz("2024-08-24 13:00", "Asia/Seoul")
+export const WEDDING_DATE = dayjs.tz("2027-04-24 12:20", "Asia/Seoul")
 
 /**
  * 예식 일시 포맷
@@ -27,7 +27,7 @@ export const WEDDING_DATE_FORMAT = `YYYY년 MMMM D일 dddd A h시${WEDDING_DATE.
  * 예식 당월 휴무일 (달력 표시용)
  * 예: 8월 15일 광복절
  */
-export const HOLIDAYS = [15]
+export const HOLIDAYS = []
 
 /**
  * 예식 장소 명칭
@@ -59,7 +59,7 @@ export const WEDDING_HALL_POSITION = [126.9594982, 37.4657134]
  * 네이버 지도 장소 ID (NMAP_PLACE_ID)
  * 네이버 지도에서 장소 검색 후 URL의 숫자 부분을 입력합니다.
  */
-export const NMAP_PLACE_ID = 13321741
+export const NMAP_PLACE_ID = 366784007
 
 /**
  * 카카오 지도 장소 ID (KMAP_PLACE_ID)
