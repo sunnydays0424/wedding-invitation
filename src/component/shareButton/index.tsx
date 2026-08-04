@@ -32,7 +32,7 @@ export const ShareButton = () => {
 
           // 카카오톡 공유 전송 (위치 기반 템플릿 사용)
           kakao.Share.sendDefault({
-            objectType: "location",
+            objectType: "feed",
             address: SHARE_ADDRESS,
             addressTitle: SHARE_ADDRESS_TITLE,
             content: {
