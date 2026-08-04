@@ -2,6 +2,8 @@ import {
   BRIDE_FULLNAME,
   GROOM_FULLNAME,
   LOCATION,
+  SHARE_ADDRESS,
+  SHARE_ADDRESS_TITLE,
   WEDDING_DATE,
   WEDDING_DATE_FORMAT,
 } from "../../const"
@@ -28,11 +30,11 @@ export const ShareButton = () => {
             return
           }
 
-          // 카카오톡 공유 전송 (feed 타입으로 변경하여 버튼 활성화)
+          // 카카오톡 공유 전송 (위치 기반 템플릿 사용)
           kakao.Share.sendDefault({
-            objectType: "feed", 
-            // 💡 [중요] feed 타입에는 address, addressTitle 속성이 들어가면 에러가 나므로 삭제했습니다!
-            
+            objectType: "location",
+            address: SHARE_ADDRESS,
+            addressTitle: SHARE_ADDRESS_TITLE,
             content: {
               title: `${GROOM_FULLNAME} ❤️ ${BRIDE_FULLNAME}의 결혼식에 초대합니다.`,
               description:
@@ -42,7 +44,7 @@ export const ShareButton = () => {
                 "//" +
                 window.location.host +
                 baseUrl +
-                "/preview_image.png", // 본인 프로젝트의 실제 이미지 확장자(.png 또는 .jpg) 확인 필요
+                "/preview_image.png",
               link: {
                 mobileWebUrl:
                   window.location.protocol +
@@ -56,7 +58,6 @@ export const ShareButton = () => {
                   baseUrl,
               },
             },
-            // 💡 이제 feed 타입이므로 이 '초대장 보기' 버튼이 카카오톡 메시지에 정상적으로 나타납니다!
             buttons: [
               {
                 title: "초대장 보기",
