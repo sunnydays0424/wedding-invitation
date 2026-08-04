@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react"
 // 필요한 아이콘 이미지나 폰트어썸 등을 임포트하세요 (예시용 경로)
-import soundOnIcon from "../../icons/sound-on.png"
-import soundOffIcon from "../../icons/sound-off.png"
+import soundOnIcon from "../icons/sound-on.png"
+import soundOffIcon from "../icons/sound-off.png"
 
 const baseUrl = import.meta.env.BASE_URL
 
