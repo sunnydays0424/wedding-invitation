@@ -1,14 +1,16 @@
 import { useState, useEffect, useRef } from "react"
-// 필요한 아이콘 이미지나 폰트어썸 등을 임포트하세요 (예시용 경로)
+
+// TypeScript에서 PNG 파일을 모듈로 인식하지 못할 때 발생하는 에러를 막기 위한 선언입니다.
 import soundOnIcon from "../icons/sound-on.png"
 import soundOffIcon from "../icons/sound-off.png"
 
 const baseUrl = import.meta.env.BASE_URL
 
 export const BGMPlayer = () => {
-  const [isPlaying, setIsPlaying] = useState(false)
-  // 오디오 객체를 useRef로 관리하여 컴포넌트가 리렌더링되어도 유지되도록 합니다.
-  const audioRef = useRef(null)
+  const [isPlaying, setIsPlaying] = useState<boolean>(false)
+  
+  // HTMLAudioElement 타입을 지정하여 타입스크립트 에러를 해결합니다.
+  const audioRef = useRef<HTMLAudioElement | null>(null)
 
   useEffect(() => {
     // public 폴더에 넣은 음악 파일 경로

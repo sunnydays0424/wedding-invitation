@@ -8,7 +8,7 @@ import { Gallery } from "./component/gallery"
 import { Information } from "./component/information"
 import { LazyDiv } from "./component/lazyDiv"
 import { ShareButton } from "./component/shareButton"
-import { BGMPlayer } from "./component/BGMPlayer" // 💡 경로 확인 (component 단수/복수 주의)
+import { BGMPlayer } from "./component/BGMPlayer.jsx" // 💡 경로 확인 (component 단수/복수 주의)
 
 /**
  * 메인 애플리케이션 컴포넌트입니다.
