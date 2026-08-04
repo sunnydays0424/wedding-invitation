@@ -36,8 +36,7 @@ export const Invitation = () => {
                 <div className="break" />
 
         <div className="content">삶을 바라보는 시선이 닮은</div>
-        <div className="content">저희 두 사람이 이제</div>
-        <div className="content">서로의 쉼터가 되어</div>
+        <div className="content">저희 두 사람이 이제 서로의 쉼터가 되어</div>
         <div className="content">같은 계절 안에서 함께 살아가려 합니다.</div>
         <div className="break" />
         <div className="content">저희를 응원해주신 고마운 분들 앞에서</div>
