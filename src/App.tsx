@@ -54,4 +54,16 @@ function App() {
   )
 }
 
+import { BGMPlayer } from "./components/BGMPlayer" // 경로에 맞게 수정
+
+function App() {
+  return (
+    <div className="app-container">
+      {/* 기존 청첩장 내용들 */}
+      <BGMPlayer /> {/* 👈 여기에 넣어주세요 */}
+    </div>
+  )
+}
+
+
 export default App
