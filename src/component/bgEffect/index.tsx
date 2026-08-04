@@ -68,12 +68,14 @@ class Petal {
       }
     }
     this.ctx.globalAlpha = this.opacity
+    
+    // 💡 찌그러지는 수식을 없애고 고정 크기(this.w, this.h)로 수정
     this.ctx.drawImage(
       this.petalImg,
       this.x,
       this.y,
-      this.w * (0.6 + Math.abs(Math.cos(this.flip)) / 3),
-      this.h * (0.8 + Math.abs(Math.sin(this.flip)) / 5),
+      this.w,
+      this.h,
     )
   }
 
