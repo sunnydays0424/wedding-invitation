@@ -42,7 +42,7 @@ class Petal {
   initialize() {
     this.w = 50 + Math.random() * 30
     this.h = 40 + Math.random() * 20
-    this.opacity = this.w / 30
+    this.opacity = this.w / 80
     this.flip = Math.random()
 
     this.xSpeed = X_SPEED + Math.random() * X_SPEED_VARIANCE
