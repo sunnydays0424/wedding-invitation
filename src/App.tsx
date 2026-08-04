@@ -8,6 +8,7 @@ import { Gallery } from "./component/gallery"
 import { Information } from "./component/information"
 import { LazyDiv } from "./component/lazyDiv"
 import { ShareButton } from "./component/shareButton"
+import { BGMPlayer } from "./component/BGMPlayer" // 💡 경로 확인 (component 단수/복수 주의)
 
 /**
  * 메인 애플리케이션 컴포넌트입니다.
@@ -18,8 +19,9 @@ import { ShareButton } from "./component/shareButton"
 function App() {
   return (
     <div className="background">
-      {/* 배경 애니메이션 효과 (예: 꽃잎 내리기) */}
+      {/* 배경 애니메이션 효과 (꽃잎 등) */}
       <BGEffect />
+      
       <div className="card-view">
         <LazyDiv className="card-group">
           {/* 메인 커버 섹션 */}
@@ -50,20 +52,11 @@ function App() {
         {/* 카카오톡/링크 공유 버튼 */}
         <ShareButton />
       </div>
+
+      {/* 💡 배경음악 플레이어 아이콘 (화면 우측 하단 고정) */}
+      <BGMPlayer />
     </div>
   )
 }
-
-import { BGMPlayer } from "./components/BGMPlayer" // 경로에 맞게 수정
-
-function App() {
-  return (
-    <div className="app-container">
-      {/* 기존 청첩장 내용들 */}
-      <BGMPlayer /> {/* 👈 여기에 넣어주세요 */}
-    </div>
-  )
-}
-
 
 export default App
