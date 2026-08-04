@@ -40,8 +40,8 @@ class Petal {
    * 꽃잎의 크기, 투명도, 속도 등을 무작위로 초기화합니다.
    */
   initialize() {
-    this.w = 50 + Math.random() * 30
-    this.h = 40 + Math.random() * 20
+    this.w = 25 + Math.random() * 15
+    this.h = 20 + Math.random() * 10
     this.opacity = this.w / 80
     this.flip = Math.random()
 
@@ -68,14 +68,12 @@ class Petal {
       }
     }
     this.ctx.globalAlpha = this.opacity
-    
-    // 💡 찌그러지는 수식을 없애고 고정 크기(this.w, this.h)로 수정
     this.ctx.drawImage(
       this.petalImg,
       this.x,
       this.y,
-      this.w,
-      this.h,
+      this.w * (0.6 + Math.abs(Math.cos(this.flip)) / 3),
+      this.h * (0.8 + Math.abs(Math.sin(this.flip)) / 5),
     )
   }
 
