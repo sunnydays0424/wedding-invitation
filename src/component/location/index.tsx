@@ -35,7 +35,7 @@ export const Location = () => {
           <div className="content">
             * 지하철 이용시
             <br />
-            [<span style={{ color: "#40CD44" }}>2호선</span>/<span style={{ color: "#FFD603" }}>수인분당선</span>] <b>선릉역 5번출구</b> 도보 5분
+            [<span style={{ color: "#40CD44" }}>2호선</span>/<span style={{ color: "#EFC700" }}>수인분당선</span>] <b>선릉역 5번출구</b> 도보 5분
           </div>
           <div />
           <div className="content">
