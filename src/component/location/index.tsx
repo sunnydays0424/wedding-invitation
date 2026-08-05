@@ -43,7 +43,7 @@ export const Location = () => {
             <br />
             ① <b>KT 강남지사</b> 하차
             <br />
-            → <div style={{ color: "blue" }}>간선(파랑)</div>: 141(도봉산), 242(중랑, 신내역),
+            → <span style={{ color: "blue" }}>간선(파랑)</span>: 141(도봉산), 242(중랑, 신내역),
             <br />
             &nbsp;&nbsp;&nbsp;&nbsp;361(여의도)
             <br />
