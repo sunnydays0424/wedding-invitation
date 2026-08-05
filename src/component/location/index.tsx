@@ -35,7 +35,7 @@ export const Location = () => {
           <div className="content">
             * 지하철 이용시
             <br />
-            [2호선/수인분당선] <b>선릉역 5번출구</b> 도보 5분
+            [<span style={{ color: "#40CD44" }}>2호선</span>/<span style={{ color: "#FFD603" }}>수인분당선</span>] <b>선릉역 5번출구</b> 도보 5분
           </div>
           <div />
           <div className="content">
@@ -49,17 +49,17 @@ export const Location = () => {
             <br />
             ② <b>한국기술센터, 상록회관</b> 하차
             <br />
-            → 간선(파랑): 146(상계동), 341(하남),
+            → <span style={{ color: "blue" }}>간선(파랑)</span>: 146(상계동), 341(하남),
             <br />
             &nbsp;&nbsp;&nbsp;&nbsp;360(송파), 740(덕은동)
             <br />
-            → 직행버스(빨강): 1100(차산리), 2000(진벌리), 
+            → <span style={{ color: "red" }}>직행버스(빨강)</span>: 1100(차산리), 2000(진벌리), 
             <br />
             &nbsp;&nbsp;&nbsp;&nbsp;1700(연대농장입구, 도곡리), 7007(광릉내), 
             <br />
             &nbsp;&nbsp;&nbsp;&nbsp;9303(하남)
             <br />
-            → 급행버스(빨강): 8001(대성리)
+            → <span style={{ color: "red" }}>급행버스(빨강)</span>: 8001(대성리)
             <br />
           </div>
         </div>
