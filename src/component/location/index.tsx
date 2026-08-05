@@ -45,7 +45,7 @@ export const Location = () => {
             <br />
             → 간선(파랑): 141(도봉산), 242(중랑, 신내역), 
             <br />
-            &nbsp;&nbsp;361(여의도)
+            &nbsp;&nbsp;&nbsp;&nbsp;361(여의도)
             <br />
             ② <b>한국기술센터, 상록회관</b> 하차
             <br />
