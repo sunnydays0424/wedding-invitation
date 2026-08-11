@@ -39,6 +39,8 @@ export const Location = () => {
            <br />
             → 도보 5분, 셔틀버스 운행
             <br />
+            <br />
+
           </div>
           <div />
           <div className="content">
