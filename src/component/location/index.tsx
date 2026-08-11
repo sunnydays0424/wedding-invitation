@@ -85,7 +85,7 @@ export const Location = () => {
             <br />
             : 양재IC 진입하시어 양재대로에서 매봉터널,
             <br />
-            &nbsp;&nbsp;강남세브란스병원 방면으로 진입하여 직집
+            &nbsp;&nbsp;강남세브란스병원 방면으로 진입하여 직진
             <br />
           </div>
           <div />
